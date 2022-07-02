@@ -1,13 +1,10 @@
 .sources {
   display: flex;
-  /* flex-wrap: nowrap; */
   flex-wrap: wrap;
   justify-content: center;
   padding-left: 100px;
   padding-right: 100px;
   width: 100%;
-  /* height: 120px; */
-  /* height: 270px; */
   height: 290px;
   overflow: auto;
   align-items: center;
@@ -49,8 +46,7 @@
 
 @media (max-width: 768px) {
   .sources {
-    /* height: 250px; */
-    height: 265px;
+    height: 315px;
     font: 300 0.8em 'Fira Sans', sans-serif;
   }
 
